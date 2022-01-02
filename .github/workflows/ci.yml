@@ -34,3 +34,5 @@ jobs:
           flutter pub get
           cd ./ios && pod install
       - run: flutter build ios --release --no-codesign
+      
+      
